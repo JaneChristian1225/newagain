@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+nav {
+    width: 100%;
+    height: 65px;
+    background: #1a1851;
+    margin-top: px;
+}
+.logo{
+    margin-top: -7px;
+    margin-left: 10px;
+    float: left;
+    width: 70px;
+}
+
+nav ul .li{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: 0.6s ease;
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+ul li a:hover{
+    background-color:#fcb316;
+    color: black;text-decoration: none;
+}
+
+.cover{
+    display: flex;
+    background-image: url(./lpbackground1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin-top: 0px;
+    flex-direction: column;
+}
+#browsenowbttn{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    background-color:#1a1851;
+    color: #fcb316;
+    border-style: none;
+    border-radius: 10px;
+}
+.title{
+    font-family: Garamond;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 25vh;
+    float: left;
+}
+.des{
+    font-size: 16px;
+    margin-left: 20px;
+    float:left;
+    line-height: 10px;
+}
+.Blog{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+.blogPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.post{
+    margin: 50px;
+}
+span{
+    font-weight: bold;
+}
+.text{
+    font-size: 12px;
+}
+.readMore{
+    font-size: 16px;
+    display: inline-block;
+}
+.bottom{
+    background-color:#ffdb58;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.Footer{
+    font-family: Garamond;
+    font-size: 40px;
+    margin-top: 5vh;
+    
+}
+.botFooter{
+    font-size: 16px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 30px;
+}
+.botFooter1{
+    font-size: 16px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 30px;
+}
+.botFooter2{
+    font-size: 16px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 30px;
+}
+.moreinfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}
+.book{
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+.signin{
+    border: none;
+    background:#ffdb58;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+    outline: none;
+    font-size: 16px;
+    transition: .4s;
+    border-radius: 20px;
+    color: #1a1851;
+}
+.createElectionbtn:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.form-box{
+    width: 95%;
+    height: 100%;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width: 230px;
+    top: 10px;
+    left: 25%;
+    position: relative;
+    border: solid thin;
+    border-color: #fcb316;
+    border-radius: 30px;
+}
+.toogle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+}
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background-color:#ffdb58;
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top:60px;
+    position: absolute;
+    width: 100%;
+    transition: .5s;
+    color: white;
+}
+.input-group1{
+    top:80px;
+    position: absolute;
+    width: 100%;
+    transition: .5s;
+    color: white;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 92%;
+    margin: 5px 0;
+    position: relative;
+    color: white;
+  }
+  .input-box input{
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 15px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: -50px auto;
+    border: 0;
+    outline: none;
+    background: #ffdb58;
+    position: absolute; 
+    top: 150%;
+    left: 47%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.submit-btn1{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: -50px auto;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    background: #ffdb58;
+    position: absolute; 
+    bottom: -40px;
+    left: 47%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#login{
+    left:10px;
+}
+#register{
+    left:450px;
+
+}
+.btn-close{
+    float: right;
+    
+}
+
+.hero{
+    height: 450px;
+}
+.modal-body{
+    background-color: #1a1851;
+}
+@media only screen and (max-width: 380px){
+    
+    .logo{
+        margin-left: -20px;
+        margin-top: 5px;
+        width: 50px;
+    }
+    nav ul li .li{
+        display: inline-block;
+        list-style:none;
+    }
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        transition: 0.6s ease;
+        text-align: center;
+        padding: 0 15px;
+        
+    }
+    .signin{
+        border: none;
+        background:#ffdb58;
+        padding: 5px 10px;
+        outline: none;
+        font-size: 12px;
+        transition: .4s;
+        border-radius: 20px;
+        color: #1a1851;
+    }
+    .cover{
+        background-position: right;
+        height: 300px;
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .des{
+        font-size: 10px;
+        line-height: normal;
+        margin-right: 100px;
+    }
+    #browsenowbttn{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+    }
+}
